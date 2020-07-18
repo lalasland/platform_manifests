@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <remote  name="aosp"
-           fetch=".." />
-  <default revision="master"
+           fetch="https://android.googlesource.com/"
+  <default revision="refs/tags/android-7.1.2_r13"
            remote="aosp"
            sync-j="4" />
 
