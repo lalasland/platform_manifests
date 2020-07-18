@@ -4,7 +4,7 @@
 
     <!-- Remove a few projects we have replacements for -->
     <remove-project name="platform/art" />
-    <remove-project name="platform/bionic" />
+    <!--<remove-project name="platform/bionic" />
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/native" />
     <remove-project name="platform/hardware/libhardware" />
@@ -13,13 +13,11 @@
     <remove-project name="platform/system/netd" />
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/opt/net/wifi" />
-    <remove-project name="platform/system/vold" />
-    <remove-project name="device/generic/goldfish" />
-    <remove-project name="device/generic/goldfish-opengl" />
+    <remove-project name="platform/system/vold" />-->   
 
     <!-- These are all Android repositories we have modifications for -->
     <project path="art" name="platform_art" groups="pdk" remote="anbox" />
-    <project path="bionic" name="platform_bionic" groups="pdk" remote="anbox" />
+    <!--<project path="bionic" name="platform_bionic" groups="pdk" remote="anbox" />
     <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="anbox" />
     <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="anbox" />
     <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="anbox" />
@@ -28,7 +26,7 @@
     <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="anbox" />
     <project path="system/core" name="platform_system_core" groups="pdk" remote="anbox" />
     <project path="system/netd" name="platform_system_netd" groups="pdk" remote="anbox" />
-    <project path="system/vold" name="platform_system_vold" groups="pdk" remote="anbox" />
+    <project path="system/vold" name="platform_system_vold" groups="pdk" remote="anbox" />-->
 
     <!-- Our own components -->
     <project path="device/anbox" name="device_anbox" remote="anbox" revision="master" />
