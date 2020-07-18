@@ -1,12 +1,11 @@
-<!--mirror manifest-->
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
-  <default revision="refs/tags/android-7.1.2_r13"
+           fetch=".." />
+  <default revision="master"
            remote="aosp"
            sync-j="4" />
+
   <project name="platform/build" />
   <project name="platform/build/blueprint" />
   <project name="platform/build/kati" />
